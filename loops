@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int numrows=0;
+    printf("Enter the number of Rows:");
+    scanf("%d",&numrows);
+    
+    for(int rowno=1; rowno<=numrows; rowno++)
+    {
+        for(int colno=1; colno<=rowno; colno++)
+        {
+            printf("%2d ",rowno);
+        }
+        printf("\n");
+    }
+    
+}
